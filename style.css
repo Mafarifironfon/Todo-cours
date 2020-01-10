@@ -51,8 +51,14 @@ ul {
     background-color: aqua;
 }
 .item.done .item-inner{
-    background-color: red;
+    background-color: rgb(219, 152, 152);
 }
+.item.done .check1,
+.item.todo .check2 {
+    opacity: .5;
+    pointer-events: none;
+}
+
 p {
     background-color: #fff;
     color: #666;
