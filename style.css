@@ -1,0 +1,95 @@
+body {
+    background-color: #85cff7;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+#list_section {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+ul {
+    padding: 0;
+    display: inline-flex;
+    flex-direction: column;
+
+}
+
+.delete {
+    background-color: rgb(138, 142, 197);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+
+
+.item {
+    display: inline-flex;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.item-inner {
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    font-size: 20px;
+    width: 250px;
+    margin-right: 20px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    padding: 10px;
+}
+.item.todo .item-inner{
+    background-color: aqua;
+}
+.item.done .item-inner{
+    background-color: red;
+}
+p {
+    background-color: #fff;
+    color: #666;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px auto 20px auto;
+    width: 80%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* .add {
+    font-size: 12px;
+    padding: 6px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+  } */
+
+
+#add {
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+}
+
+#newItemButton {
+    display: none;
+}
+
+#itemField {
+    margin-top: 60px;
+    width: 10%;
+}
